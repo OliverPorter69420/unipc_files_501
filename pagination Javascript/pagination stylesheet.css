@@ -1,0 +1,83 @@
+.carousel_navbar {
+    background: white;
+    position: relative;
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(min-width: 1000px) {
+    .carousel_navbar{
+    max-width:322px;
+    margin: auto;
+    }
+}
+
+.button.carousel_navbar_buttons {
+    position: relative;
+    display: inline-block;
+    color: white;
+    border: 0;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: auto;
+    transition-duration: 0.4s;
+    padding: 16px;
+    font-size: 16;
+}
+
+.carousel_navbar_buttons.green {
+    color: rgb(0, 94, 0) !important;
+}
+
+.carousel_navbar_buttons.interacting:hover{
+    color: black !important;
+}
+
+.fa-solid.icon_size {
+    font-size: 32px;
+}
+
+.carousel_pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.button.swiper_bullet {
+    margin: auto;
+    align-items: center;
+    display:inline-block;
+    color: grey;
+    background-color: transparent;
+    padding: 3%;
+    border: 0;    
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+
+.button.swiper_bullet.interacting:hover{
+    color: green;
+    flex-grow: 30;
+    text-align: center;
+}
+
+.button.swiper_bullet.interacting.active {
+    color: black;
+    text-align: center;
+}
+
+.fa-solid.bullet_size {
+    border-radius: 30% !important;
+}
+
+.stepcarousel {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}

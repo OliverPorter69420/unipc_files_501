@@ -1,0 +1,40 @@
+.container {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 500px;
+    width: 100%;
+    padding-block: 30px;
+}
+
+.child {
+    color: white;
+    box-sizing: border-box;
+    border: 3px solid white;
+    margin: auto;
+    border-radius: 1.5%;
+    padding: 5%;
+    width: 80%;
+    height: 100px;
+}
+
+.box_text {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child.red {
+    background-color: red;
+}
+
+.child.blue {
+    background-color: blue;
+}
+
+.child.border_black {
+    border: 3px solid black;
+}

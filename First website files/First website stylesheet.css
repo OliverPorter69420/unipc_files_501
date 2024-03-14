@@ -1,0 +1,18 @@
+.base_text {
+    margin-left: 0px; 
+    margin-top: 18px; 
+    margin-bottom: 18px;
+}
+
+.indented {
+    margin-left: 40px; 
+    margin-top: 0px; 
+    margin-bottom: 0px;
+}
+
+.secret {
+    color: white;
+}
+
+
+

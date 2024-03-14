@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+  }
+
+  .menu_image {
+      display: block;
+      width: fit-content;
+      height: fit-content;
+      background-color: aqua;
+  }
+  
+  .menu {
+    top: 0px;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    background-color: aqua;
+    padding-left: 0px;
+    margin: 0px;
+    height: 120px;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    background-color: #f0f0f0;
+  }
+  

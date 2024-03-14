@@ -1,0 +1,10 @@
+body  {
+    background-image: url("Images/ezgif-5-9e532797f0.gif");
+    enable-background: inherit;
+    background-color: #cccccc;
+    image-rendering: pixelated;
+    background-attachment: scroll;
+    filter: blur(1.2px);
+    filter: hue-rotate(blue);
+    filter: drop-shadow(black);
+  } 

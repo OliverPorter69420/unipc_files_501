@@ -1,0 +1,13 @@
+.font_varient_italtics {
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.font_varient_underlined {
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

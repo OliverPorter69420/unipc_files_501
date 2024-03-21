@@ -10,7 +10,7 @@ if (isset($_POST['song_id']) or isset($_GET['song_id'])) {
 
 $statement = $db->query($sql);
 
-$data_entity = $statement->fetch(PDO::FETCH_ASSOC);
+$value_changed = $statement->fetch(PDO::FETCH_ASSOC);
 
 ?>
 

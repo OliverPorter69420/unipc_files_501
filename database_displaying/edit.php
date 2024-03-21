@@ -4,7 +4,7 @@
 require('details.php');
 
 if (isset($_POST['song_id']) or isset($_GET['song_id'])) {
-    $sql = "UPDATE song SET title = ".$_POST['title']." WHERE song_id =".$_POST['song_id'];
+    $sql = "UPDATE song SET title = "."'".$_POST["title"]."'"." WHERE song_id = ".$_POST['song_id'];
     echo $sql;
 }
 

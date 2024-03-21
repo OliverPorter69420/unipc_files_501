@@ -8,8 +8,8 @@ catch(Exception $e) {
     echo $e->getMessage();
 } 
 
-if (isset($_GET['song_id'])) {
-    $current_id = $_GET['song_id'];
+if (isset($_POST['song_id']) or isset($_GET['song_id'])) {
+    $current_id = $_REQUEST['song_id'];
 } else {
     echo "<p> you stupid </p>";
 }
@@ -23,7 +23,3 @@ $data_entity = $statement->fetch(PDO::FETCH_ASSOC);
 
 <h1> Details </h1>
 <p> <?php print_r($data_entity); ?> </p>
-
-<form action = "action.php">
-    <p> </p>
-</form>

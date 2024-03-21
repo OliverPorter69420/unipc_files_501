@@ -12,6 +12,6 @@ catch(Exception $e) {
 } 
 
 foreach ($db -> query("select * from song limit 10") as $row) {
-    echo htmlentities($row['title'])." <a href = 'details.php?song_id=".$row['song_id']."'>show details<a> <br>";
+    echo htmlentities($row['title'])." <a href = 'edit.php?song_id=".$row['song_id']."'>show details<a> <br>";
 }
 ?>
